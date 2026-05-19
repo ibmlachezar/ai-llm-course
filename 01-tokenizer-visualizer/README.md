@@ -1,19 +1,7 @@
 # 🧠 AI LLM Mastery Course
 
-A progressive, hands-on course for mastering Large Language Models
+A progressive hands-on course for mastering Large Language Models
 by building real projects from scratch.
-
-## Who this is for
-
-Developers and AI enthusiasts who want to go beyond theory and
-actually understand how LLMs work by building with them.
-
-## How to use this course
-
-Clone the repo and work through projects in order.
-Each project builds on the previous one.
-
-    git clone https://github.com/ibmlachezar/ai-llm-course.git
 
 ## Projects
 
@@ -28,19 +16,20 @@ Each project builds on the previous one.
 | 07 | Document QA RAG | RAG, retrieval | 🟡 Medium |
 | 08 | Multimodal Analyzer | Vision, image input | 🟠 Hard |
 | 09 | Persistent Memory Bot | State, memory | 🟠 Hard |
-| 10 | RLHF Collector | Human feedback, training | 🔴 Advanced |
+| 10 | RLHF Collector | Human feedback | 🔴 Advanced |
+
+## How to use
+
+Clone the repo and work through projects in order:
+
+    git clone https://github.com/ibmlachezar/ai-llm-course.git
+    cd ai-llm-course/01-tokenizer-visualizer
+    python -m venv venv
+    venv\Scripts\activate
+    pip install -r requirements.txt
+    python tokenizer.py
 
 ## Requirements
 
 - Python 3.9+
-- Anthropic API key (get one free at console.anthropic.com)
-
-## Course Philosophy
-
-> "You don't truly understand something until you can build it."
-
-Every project includes:
-- Clean commented code
-- A README explaining the why not just the what
-- Quiz questions to test your understanding
-- Real-world applications for each concept
+- Anthropic API key from console.anthropic.com
